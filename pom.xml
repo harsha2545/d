@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+          
+  
+  
+  <modelVersion>4.0.0</modelVersion>
+          
+    
+  
+  
+  <parent>
+            		
+    
+    
+    <groupId>org.appverse.web.framework.poms</groupId>
+            		
+    
+    
+    <artifactId>appverse-web-superpom</artifactId>
+                    
+    
+    
+    <version>1.0.3</version>
+                    
+    
+    
+    <relativePath/>
+                
+  
+  
+  </parent>
+          
+  
+  
+  <groupId>com.d</groupId>
+          
+  
+  
+  <artifactId>d</artifactId>
+          
+  
+  
+  <version>1.0-SNAPSHOT</version>
+          
+  
+  
+  <packaging>pom</packaging>
+          
+    
+  
+  
+  <name>d</name>
+       	
+  
+  
+  <build>
+             		
+    
+    
+    <defaultGoal>clean package tomcat:deploy-only</defaultGoal>
+             	
+  
+  
+  </build>
+       
+
+  
+  
+  <modules>
+            
+    
+    <module>d-backend</module>
+          
+    
+    <module>d-gwtfrontend</module>
+      
+    <module>d-gwtshared</module>
+  </modules>
+    
+
+</project>
